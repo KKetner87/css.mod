@@ -145,11 +145,21 @@ ol.pagination li a.active {
 
 .overflow {
   overflow: hidden;
+  padding-left: 10px;
 }
 
-div.left pic{
-  float: left; 
+.left {
+  float: left;
+  width: 50%;
+  position: inline;
+  clear: left;
 }
+
+.img {}
+
+
+
+
 
 
 
