@@ -124,8 +124,8 @@
 	    		<p class="instruction-text">Create a navigation menu with links that are highlighted on hover.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<nav class="container">
-			    		<ul id="navbutton">
+			    	<nav class="nav">
+			    		<ul>
 			    			<li><a href="#">Home</a></li>
 			    			<li><a href="#">Products</a></li>
 			    			<li><a href="#">About</a></li>
@@ -144,15 +144,15 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<ol class="pagination">
-			    		<li><a href="#">prev</a></li>
+			    		<li><a id="prev" href="#">prev</a></li>
 			    		<li><a href="#">5</a></li>
 			    		<li><a href="#">6</a></li>
 			    		<li><a href="#">7</a></li>
-			    		<li class="active"><span>8</span></li>
+			    		<li><a class="active" href="#">8</li>
 			    		<li><a href="#">9</a></li>
 			    		<li><a href="#">10</a></li>
 			    		<li><a href="#">11</a></li>
-			    		<li><a href="#">next</a></li>
+			    		<li><a id="next" href="#">next</a></li>
 			    	</ol>
 				    <!-- End editable area -->
 			    </div>
@@ -168,7 +168,7 @@
 				    	<div style="float:left">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div style="">
+				    	<div class="overflow" style="">
 				    		<strong>@metaraine</strong>
 					    	<time>Thursday, June 27, 2013, 4:15pm</time>
 					    	<p>Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article. Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article.Wow, that was an amazing article. </p>
@@ -179,7 +179,7 @@
 				    	<div>
 					    	<img src="http://gravatar.com/avatar/1?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="left">
 				    		<strong>@seandaken</strong>
 					    	<time>Friday, June 28, 2013, 11:02</time>
 					    	<p>I learned 100 new things.</p>
@@ -187,19 +187,19 @@
 					  </div>
 
 				    <div>
-				    	<div>
+				    	<div class="left">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="overflow">
 				    		<strong>@metaraine</strong>
 					    	<time>2 hours ago</time>
 					    	<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
 						    <div>
-						    	<div>
+						    	<div class="left">
 							    	<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="overflow">
 						    		<strong>@seandaken</strong>
 							    	<time>45 minutes ago</time>
 							    	<p>Sure</p>
@@ -207,10 +207,10 @@
 							  </div>
 
 						    <div>
-						    	<div>
+						    	<div class="left">
 							    	<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="overflow">
 						    		<strong>@nullempire</strong>
 							    	<time>just now</time>
 							    	<p>No!</p>
