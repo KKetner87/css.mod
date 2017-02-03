@@ -196,10 +196,10 @@
 					    	<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
 						    <div>
-						    	<div>
+						    	<div class="left-small">
 							    	<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="overflow-small">
 						    		<strong>@seandaken</strong>
 							    	<time>45 minutes ago</time>
 							    	<p>Sure</p>
@@ -207,10 +207,10 @@
 							  </div>
 
 						    <div>
-						    	<div>
+						    	<div class="left-small">
 							    	<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="overflow-small">
 						    		<strong>@nullempire</strong>
 							    	<time>just now</time>
 							    	<p>No!</p>
@@ -228,11 +228,11 @@
 	    		<p class="instruction-text">Create styles for a tabbed content control. There should be an active tab that is styled to appear in the foreground.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="tab">
 			    		<li><a href="#">
 			    			<div>First</div>
 			    		</a></li>
-			    		<li><a href="#">
+			    		<li id="selected"><a href="#">
 			    			<div>Second</div>
 			    		</a></li>
 			    		<li><a href="#">
@@ -242,7 +242,7 @@
 			    			<div>Fourth</div>
 			    		</a></li>
 			    	</ul>
-	    			<div>
+	    			<div class="content">
 				    	<p>Lemon drops dessert bonbon sesame snaps. Cheesecake candy canes ice cream dessert toffee applicake caramels pudding pie. Marshmallow wypas halvah ice cream.</p>
 							<p>Tart croissant lollipop toffee bear claw gingerbread candy canes tart. Cookie candy canes carrot cake muffin danish jelly beans cookie. Donut liquorice jelly dragée biscuit cookie wafer. Soufflé caramels gingerbread cheesecake sesame snaps.</p>
 							<p>Chocolate cake wypas pie tiramisu lollipop chocolate bar lollipop. Chupa chups sugar plum oat cake candy canes lemon drops. Brownie fruitcake oat cake gummi bears faworki. Muffin cheesecake pastry.</p>
@@ -257,15 +257,15 @@
                     these styles when you're not actively working on them, otherwise they'll cover the whole page.</p>
                 <div class="instruction-answer">
                     <!-- Edit here -->
-                    <div>
+                    <div class="lightbox">
                         <div>
-                            <div>
-                                <h3>Hello</h3>
-                                <p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi
+                            <div class="lightbox-target">
+                                <h3 id=lightbox_header>Hello</h3>
+                                <p id="lightbox-paragrapgh">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi
                                     bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin
                                     wafer gummi bears.</p>
                                 <div>
-                                    <a>Close</a>
+                                    <a class="lightbox-close">Close</a>
                                 </div>
                             </div>
                         </div>

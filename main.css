@@ -1,4 +1,6 @@
 /* ADD YOUR STYLES HERE */
+
+/* first and second problems*/
 .firstproblem {
   padding: 0px 20px 0px 20px;
   position: relative;
@@ -20,6 +22,8 @@
   padding-top: 20px;
 }
 
+ /* third problem */
+
 .centervert {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -28,6 +32,8 @@
 ul#inline li {
   display: inline-block;
 }
+
+/* 4th prpoblem*/
 
 .button1 {
       background-color: red;
@@ -78,6 +84,7 @@ ul#inline li {
     border-radius: 12px;
 }
 
+/* 5th problem */
 
 .nav ul {
   list-style: none;
@@ -109,6 +116,8 @@ ul#inline li {
 .nav a:hover {
   background-color: #005f5f;
 }
+
+/* 6th problem */
 
 ol.pagination {
     display: inline-block;
@@ -143,27 +152,134 @@ ol.pagination li a.active {
   text-decoration: none;
 }
 
+/* 7th problem */
+
 .overflow {
   overflow: hidden;
   padding-left: 10px;
+  margin: 50px;
 }
 
 .left {
   float: left;
-  width: 50%;
+  width: 10%;
   position: inline;
   clear: left;
+  padding-left: 10px;
+  display: inline-block;
 }
 
-.img {}
+.left-small {
+ float: left;
+  width: 10%;
+  position: inline;
+  clear: left;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.overflow-small {
+  overflow: hidden;
+  padding-left: 10px;
+  margin: 50px;
+}
 
 
+/* 8th problem */
+
+.tab {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab li {
+    float: left;
+    border: 2px solid #BDA0CB;
+    border-radius: 10px 10px 0px 0px;  
+    margin: 0px 5px;
+    padding: 0px 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.tab li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+    clear: left;
+    text-align: center;
+}
+
+.content {
+    border: 2px solid #BDA0CB;
+    border-radius: 10px;
+    clear: both;  
+    margin: 0px;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+li #selected  {
+    border-bottom: 1px dashed #FDF8FF;
+}
+
+/* 9th problem*/
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: hidden;
+
+	/** Position and style */
+	position: static;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox div {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
 
 
+.lightbox-target {
+  border: 1px solid white;
+  border-radius: 10px;
+  background: white;
+  text-size: 18px;
+  outline: none;
+	display: inline-block;
+  text-align: center;
+  padding: 2%;
+  font-size: 20px;
+  text-align: left;
+  height: 300px;
+  width: 600px;
+  
+ 
+}
 
-
-
-
-
-
+a.lightbox-close {
+  border: 1px solid red;
+  background: red;
+  border-radius: 10px;
+  height: 20px;
+  width: 50px;
+  float: right;
+  font-size: 18px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+}
 
